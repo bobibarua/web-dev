@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>fb</title>
+    <style>
+        *{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        .box-container{     
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+            padding: 15px;
+            gap: 10px;
+            width: 100vw;
+            height: 30vh;
+           
+        }
+         /* for each profile */
+        .box{ 
+            display: flex;
+            flex-direction: column;
+            box-shadow: 0 10px 30px rgba(126, 96, 96, 0.4);
+            /* padding means inner gap, margin means outer gap */
+            padding: 10px;
+            background-color: white;
+        }
+        /* logo plus info */
+        .sub-box{
+           display: flex;
+           width: 100%; 
+
+        }
+
+       .thumbnail{
+            width: 100%;
+            height: 200px;
+       }
+
+       .logo{
+       
+            border-radius: 50%;
+            width: 40px;
+            height: 40px;
+            margin-right: 10px;
+       }
+       .title{
+            font-weight: bold;
+            font-size: 15px;
+            margin-top: 0px;
+            margin-bottom: 0px;
+       }
+        .info{
+            margin-top: 0;
+            color: black;
+            font-size: 12px;
+        }
+        button{
+            margin-top: 0;
+            background-color: rgb(5, 112, 212);
+            border: none;
+            color: white;
+            padding: 9px 10px;
+            font-weight: bold;
+            cursor: pointer;
+        }
+        button:hover{
+            background-color: rgb(9, 90, 161);
+            color: rgb(189, 189, 189);
+        }
+
+    </style>
+</head>
+<body>
+    <div class="box-container">
+
+        <div class="box">
+            <div class="box-1">
+                <img class="thumbnail" src="/media/tom.jpg">
+            </div>
+            <div class="sub-box">
+                <div class="box-2">
+                    <img class="logo" src="/media/tom.jpg" alt="">
+                </div>
+                <div class="box-3">
+                    <p class="title">Tomas</p>
+                    <p class="info">5 Mutual Friends</p>
+                    <button>Add Friend</button>
+                </div>
+             </div>
+        </div> 
+
+        <div class="box">
+            <div class="box-1">
+                <img class="thumbnail" src="/media/jerry.jpg">
+            </div>
+            <div class="sub-box">
+                <div class="box-2">
+                    <img class="logo" src="/media/jerry.jpg" alt="">
+                </div>
+                <div class="box-3">
+                    <p class="title">Jerry</p>
+                    <p class="info">3 Mutual Friends</p>
+                    <button>Add Friend</button>
+                </div>
+             </div>
+        </div>   
+
+        <div class="box">
+            <div class="box-1">
+                <img class="thumbnail" src="/media/spike.jpg">
+            </div>
+            <div class="sub-box">
+                <div class="box-2">
+                    <img class="logo" src="/media/spike.jpg" alt="">
+                </div>
+                <div class="box-3">
+                    <p class="title">Spike</p>
+                    <p class="info">5 Mutual Friends</p>
+                    <button>Add Friend</button>
+                </div>
+             </div>
+        </div>   
+
+        <div class="box">
+            <div class="box-1">
+                <img class="thumbnail" src="/media/cousin.jpg">
+            </div>
+            <div class="sub-box">
+                <div class="box-2">
+                    <img class="logo" src="/media/cousin.jpg" alt="">
+                </div>
+                <div class="box-3">
+                    <p class="title">Cousin</p>
+                    <p class="info">5 Mutual Friends</p>
+                    <button>Add Friend</button>
+                </div>
+             </div>
+        </div>   
+
+    </div>
+
+</body>
+</html>
