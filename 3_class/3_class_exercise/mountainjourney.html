@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mountain Journey</title>
+    <style>
+        body{
+            background-color: rgb(247, 244, 240);
+            height: 3400px;
+            width: 1300px;
+            font-family: "Times New Roman", Times, serif;
+        }
+        /* First part of the page */
+        .heading{
+           
+            font-size: 100px;
+            margin-left: 170px;
+            font-weight: 100;
+            margin-top: 0px;
+            margin-bottom: 0px;
+            
+        }
+
+        .box-1{
+            background: url(/media/mountain_bg.jpeg);
+            background-size: cover;
+            position: relative;
+            border: none;
+            margin-left: 100px;
+            margin-right: 3000px;
+            border-radius: 25px;
+            width: 1100px;
+            height: 800px;
+
+        }
+
+        /* INSIDE FIRST PICTURE */
+        .text-1{
+            margin-left: 40px;
+            position: absolute;
+            font-size: 20px;
+            color: white;
+            bottom: 150px;
+
+        }
+        .text-2{
+            margin-left: 40px;
+            margin-bottom: 25px;
+            position: absolute;
+            bottom: 0;
+            font-size: 145px;
+            color: white;
+        }
+        .email{
+            position: absolute;
+            border-radius: 12px;
+            border: none;
+            right: 230px;
+            bottom: 50px;
+            padding: 25px;
+            width: 400px;
+            background-color: white;
+        }
+        .btn1{
+            position: absolute;
+            background-color: white;
+            border: none;
+            border-radius: 12px;
+            font-size: 20px;
+            padding: 20px;
+            right: 40px;
+            bottom: 50px;
+        }
+        .box-2{
+            position: relative;
+            margin-top: 200px;
+            margin-left: 100px;
+            margin-right: 100px;
+            height: 800px;
+            width: 1300px;
+            display: grid;
+            grid-template-columns: 1000px 1fr;
+            background-color: rgb(197, 234, 222);
+            border: none;
+            border-radius: 25px;
+           
+        }
+        /* Middle part contents */
+        .video-1{
+            width: 900px;
+            height: 100%;
+            object-fit: cover;
+            border-top-left-radius: 25px;
+            border-bottom-left-radius: 25px;
+        }
+        .text-3{
+            position: absolute;
+            font-weight: lighter;
+            font-size: 80px;
+            margin-top: 250px;
+            margin-left: 20px;
+            right: 0;
+            color: black;
+        }
+        .btn2{
+            border: solid 5px white;
+            border-radius: 45px;
+            position: absolute;
+            font-size: 30px;
+            color: white;
+            padding: 20px 40px;
+            top: 40%;
+            right: 65%;
+            background-color: transparent;  
+        }
+        /* Third Part Contents */
+        .box-3{
+            margin-top: 100px;
+            margin-left: 100px;
+            margin-right: 100px;
+            width: auto;
+            position: relative;
+        }
+        .video-2{
+            width: 100%;
+            height: auto;
+            object-fit: cover;
+            border-radius: 25px;
+        }
+        .box3text{
+            position: absolute;
+            margin-left: 40px;
+            margin-top: 20px;
+            top: 0;
+            font-size: 70px;
+            font-weight: lighter;
+            color: white;
+
+        }
+        .subbox{
+            position: absolute;
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+            bottom: 25px;
+        }
+        .subbox-1{
+            border: solid 3px white;
+            color: white;
+            font-size: 17px;
+            font-weight: 700;
+            border-radius: 100px;
+            padding-left: 30px;
+            padding-top: 20px;
+            padding-right: 20px;
+            height: 160px;
+            margin: 30px 30px;
+            margin-bottom: 60px;
+        }    
+        .subbox-2{
+            border: solid 3px white;
+            color: white;
+            font-size: 17px;
+            font-weight: 700;
+            border-radius: 100px;
+            padding-left: 30px;
+            padding-top: 20px;
+            padding-right: 20px;
+            height: 160px;
+            margin: 30px 30px;
+            margin-bottom: 60px;
+        }   
+        .subbox-3{
+            border: solid 3px white;
+            color: white;
+            font-size: 17px;
+            font-weight: 700;
+            border-radius: 100px;
+            padding-left: 30px;
+            padding-top: 20px;
+            padding-right: 20px;
+            height: 160px;
+            margin: 30px 30px;
+            margin-bottom: 60px;
+        } 
+
+        /* Last Part of the page */
+        .box-4{
+            position: relative;
+            text-align: center;
+            height: 700px;
+            
+        }
+        .largetext{
+            position: absolute;
+            font-size: 90px;
+            color: black;
+            font-weight: lighter;
+            margin-top: 280px;
+            margin-left: 350px;
+            
+           
+        }
+        .smalltext{
+            position: absolute;
+            font-size: 18px;
+            margin-top: 500px;
+            margin-left: 350px;
+        }
+
+        /* Footer of the page */
+        .box-5{
+            border: solid black;
+            background-color: black;
+            color: white;
+            position: relative;
+            top: 100px;
+            bottom: 10;
+            height: 60px;
+            border-radius: 10px;
+        }
+        .lefttext{
+            position: absolute;
+            left: 25px;
+            top: 5px;
+        }
+        .righttext{
+            position: absolute;
+            right: 25px;
+            top: 5px;
+        }
+
+    </style>
+</head>
+<body>
+    <div>
+        <h1 class="heading">Your Mountain Journey</h1>
+    </div>
+    <!-- First part of the webpage -->
+    <div class="box-1">
+        <p class="text-1">Integrate data from all your apps into a single platform, with <br>perfect memory and predictive capabilities.</p>
+        <p class="text-2">MOUNTAIN</p>
+        <input class="email" type="text" placeholder="Email Address">
+        <button class="btn1">Climb With Us!</button>
+    </div>
+
+    <!-- 2nd part of the page -->
+    <div class="box-2">
+        <video class="video-1" autoplay muted loop src="/media/mountainvid-1.mp4"></video>
+        <p class="text-3">See Above <br>Your <br>Imagination</p>
+        <button class="btn2">Lets Climb</button>
+    </div>
+
+    <!-- 3rd part of the page -->
+     <div class="box-3">
+        <video class="video-2" autoplay muted loop src="/media/mountainvid-2.mp4"></video>
+        <p class="box3text">Climb into <br> Peak</p>
+        <div class="subbox">
+            <div class="subbox-1">
+                <p>Make Informed Decisions <br><br>Use data-driven insights to confidently plan your future decisions <p>
+            </div>
+            <div class="subbox-2">
+                <p>Get Ahead with Personalized Suggestions
+                    <br><br>
+                    Unlock ideas you never saw coming—project proposals, emails, DMs and custom gifts.
+                </p>
+            </div>
+            <div class="subbox-3">
+                <p>Plan Memorable Events
+                    <br><br>
+                    Get customized advice for planning your next trip, dinner or meeting.</p>
+            </div>
+        </div>
+     </div>
+
+     <!-- Last part of the page -->
+     <div class="box-4">
+        <p class="largetext">We Climb What
+            <br>
+            We See.
+        </p>
+        <p class="smalltext">
+            At the heart of our process is a deep-seated belief in the quality and potential of <br>
+            MindPalace. Before anything reaches your hands, it undergoes rigorous testing <br>and <br>
+            scrutiny. We stand behind every feature, every security measure, and every <br>innovation, <br>
+            ensuring that each meets our high standards.
+        </p>
+     </div>
+
+     <!-- footer of the page -->
+      <div class="box-5">
+        <p class="lefttext">Thank you for completing Task - 3 ❤</p>
+        <p class="righttext">Terms Privacy</p>
+      </div>
+
+</body>
+</html>
